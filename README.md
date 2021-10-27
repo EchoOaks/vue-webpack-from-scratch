@@ -46,7 +46,7 @@ npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader cs
 
 ## 6) Basic files
 
-6.1) # src/main.js
+#### 6.1) # src/main.js ( webpack entrypoint )
 
 ```
 import Vue from 'vue'
@@ -60,7 +60,7 @@ new Vue({
 }).$mount('#app')
 ```
 
-6.2) # src/App.vue
+#### 6.2) # src/App.vue
 
 ```
 <template>
@@ -86,7 +86,7 @@ export default {
 </style>
 ```
 
-6.3) # src/Components/Home.vue
+#### 6.3) # src/Components/Home.vue
 ```
 <template>
 </template>
@@ -113,7 +113,7 @@ export default {
 ```
 
 
-6.4) # webpack.config.js (base folder)
+#### 6.4) # webpack.config.js (base folder)
 
 ```
 const HtmlWebpackPlugin = require('html-webpack-plugin')
