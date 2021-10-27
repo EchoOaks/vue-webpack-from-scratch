@@ -1,6 +1,9 @@
 ![](https://img.shields.io/badge/Code-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Webpack-informational?style=flat&logo=webpack&logoColor=white&color=8dd6f9)
 
+# TL;DR
+> https://github.com/jmscarnatto/vue-webpack-from-scratch.git
+
 # Step by step how to setup a Vue project without VUE-CLI but Webpack
 
 ## 1) New project folder 
