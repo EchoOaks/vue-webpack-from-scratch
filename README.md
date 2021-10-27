@@ -26,14 +26,26 @@ npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader cs
 ```
 
 ### 4) Folder Structure
->src
- src/App.vue
- src/main.js
->>assets
-  assets/style.css
-  assets/index.html (html boilerplate)
->>components
-  components/Home.vue
+
+```
+new-vue-webpack-app
+│   README.md
+│   package.json
+│   package-lock.json
+│   webpack.config.js
+│
+└───src
+    │   App.vue
+    │   main.js
+    │
+    └───assets
+    │   |   index.html  // html boilerplate
+    │   |   style.css
+    │
+    └───components
+        |   Home.vue
+```
+
 
 ### 5) Agregar 'build' y 'dev' a package.json 
 ```
