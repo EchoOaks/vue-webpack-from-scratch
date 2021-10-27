@@ -1,4 +1,4 @@
-Paso a paso como inicializar un vue sin CLI con Webpack
+# Paso a paso como inicializar un vue sin CLI con Webpack
 
 1) New folder 
 ```
@@ -9,15 +9,16 @@ cd new-vue-webpack-app
 2) npm init -y ( genera package.json )
 
 3) Dependecias 
+```
 npm i vue 
 npm install -D vue-loader vue-template-compiler babel-loader
 npm install -D babel-loader
 npm install -D vue-style-loader css-loader
 npm install html-webpack-plugin --save-dev
 npm install --save-dev webpack webpack-cli 
+```
 
 4) Folder Structure
-index.js (webpack entrypoint)
 >src
  src/App.vue
  src/main.js
@@ -28,19 +29,20 @@ index.js (webpack entrypoint)
   components/Home.vue
 
 5) Agregar 'build' y 'dev' a package.json 
-
+```
 	"scripts": {                                            
 	  "build": "webpack --mode=development",                
 	  "dev": "webpack serve --mode=development",                
 	  "test": "echo \"Error: no test specified\" && exit 1" 6) main.js
 	},                                                      ////////////////
-
+```
 
 
 6) Basic files
  
 6.1) # src/main.js
 
+```
 ////////////////
 import Vue from 'vue'
 import App from './App.vue'
@@ -51,11 +53,13 @@ Vue.config.productionTip = false
 new Vue({
   render: h => h(App),
 }).$mount('#app')
+```
 ////////////////
 
 6.2) # src/App.vue
 
 //////////////7
+```
 <template>
   <div id="app">
     <Header />
@@ -78,10 +82,12 @@ export default {
 #app {
 }
 </style>
+```
 ////////////////
 
 6.3) # src/Components/Home.vue
 ////////////////
+```
 <template>
 </template>
 
@@ -104,6 +110,7 @@ export default {
 
 <style>
 </style>
+```
 
 ////////////////
 
@@ -111,6 +118,7 @@ export default {
 
 ////////////////
 
+```
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
@@ -139,12 +147,14 @@ module.exports = {
 		new VueLoaderPlugin()
 	]
 }
+```
 /////////////////////
 
 
 6.5) # src/assets/index.html
 
 /////////////////////
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -157,6 +167,7 @@ module.exports = {
 	<div id="app"></div>
   </body>
 </html>
+```
 
 ////////////////
 
