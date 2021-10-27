@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/Code-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Webpack-informational?style=flat&logo=webpack&logoColor=white&color=2bbc8a)
+
 # Paso a paso como inicializar un vue sin CLI con Webpack
 
 1) New project folder 
