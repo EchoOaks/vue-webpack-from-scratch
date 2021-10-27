@@ -1,6 +1,6 @@
 # Paso a paso como inicializar un vue sin CLI con Webpack
 
-1) New folder 
+1) New project folder 
 ```
 mkdir new-vue-webpack-app
 cd new-vue-webpack-app
@@ -43,7 +43,6 @@ npm install --save-dev webpack webpack-cli
 6.1) # src/main.js
 
 ```
-////////////////
 import Vue from 'vue'
 import App from './App.vue'
 import './assets/style.css'
@@ -54,11 +53,9 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 ```
-////////////////
 
 6.2) # src/App.vue
 
-//////////////7
 ```
 <template>
   <div id="app">
@@ -83,10 +80,8 @@ export default {
 }
 </style>
 ```
-////////////////
 
 6.3) # src/Components/Home.vue
-////////////////
 ```
 <template>
 </template>
@@ -112,11 +107,8 @@ export default {
 </style>
 ```
 
-////////////////
 
 6.4) # webpack.config.js (base folder)
-
-////////////////
 
 ```
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -148,12 +140,9 @@ module.exports = {
 	]
 }
 ```
-/////////////////////
-
 
 6.5) # src/assets/index.html
 
-/////////////////////
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -167,13 +156,3 @@ module.exports = {
 	<div id="app"></div>
   </body>
 </html>
-```
-
-////////////////
-
-
-
-
-
-
-
