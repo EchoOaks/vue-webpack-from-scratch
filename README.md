@@ -3,13 +3,13 @@
 
 # Paso a paso como inicializar un vue sin CLI con Webpack
 
-1) New project folder 
+## 1) New project folder 
 ```
 mkdir new-vue-webpack-app
 cd new-vue-webpack-app
 ```
 
-2) npm init -y ( it generates an empty package.json )
+### 2) npm init -y ( it generates an empty package.json )
 
 3) Dependencies 
 ```
@@ -65,7 +65,6 @@ new Vue({
 ```
 <template>
   <div id="app">
-    <Header />
     <Home />
   </div>
 </template>
