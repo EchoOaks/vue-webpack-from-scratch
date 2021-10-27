@@ -178,3 +178,8 @@ module.exports = {
 	<div id="app"></div>
   </body>
 </html>
+```
+
+## 7) Serve it at http://localhost:8080
+>npm run dev
+
