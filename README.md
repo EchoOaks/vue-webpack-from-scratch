@@ -1,6 +1,10 @@
 Paso a paso como inicializar un vue sin CLI con Webpack
 
-1) New folder <app-name>
+1) New folder 
+```
+mkdir new-vue-webpack-app
+cd new-vue-webpack-app
+```
 
 2) npm init -y ( genera package.json )
 
