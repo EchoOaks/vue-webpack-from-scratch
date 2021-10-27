@@ -9,16 +9,20 @@ mkdir new-vue-webpack-app
 cd new-vue-webpack-app
 ```
 
-2) npm init -y ( genera package.json )
+2) npm init -y ( it generates an empty package.json )
 
-3) Dependecias 
+3) Dependencies 
 ```
 npm i vue 
-npm install -D vue-loader vue-template-compiler babel-loader
+npm install -D vue-loader vue-template-compiler
 npm install -D babel-loader
 npm install -D vue-style-loader css-loader
 npm install html-webpack-plugin --save-dev
 npm install --save-dev webpack webpack-cli 
+```
+or just..
+```
+npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader css-loader webpack webpack-cli html-webpack-plugin 
 ```
 
 4) Folder Structure
@@ -33,16 +37,15 @@ npm install --save-dev webpack webpack-cli
 
 5) Agregar 'build' y 'dev' a package.json 
 ```
-	"scripts": {                                            
-	  "build": "webpack --mode=development",                
-	  "dev": "webpack serve --mode=development",                
-	  "test": "echo \"Error: no test specified\" && exit 1" 6) main.js
-	},                                                      ////////////////
+"scripts": {                                            
+  "build": "webpack --mode=development",                
+  "dev": "webpack serve --mode=development",                
+  "test": "echo \"Error: no test specified\" && exit 1" 6) main.js
+},                                                      
 ```
 
+## 6) Basic files
 
-6) Basic files
- 
 6.1) # src/main.js
 
 ```
