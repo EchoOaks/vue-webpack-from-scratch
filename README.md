@@ -11,7 +11,7 @@ cd new-vue-webpack-app
 
 ### 2) npm init -y ( it generates an empty package.json )
 
-3) Dependencies 
+### 3) Dependencies 
 ```
 npm i vue 
 npm install -D vue-loader vue-template-compiler
@@ -25,7 +25,7 @@ or just..
 npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader css-loader webpack webpack-cli html-webpack-plugin 
 ```
 
-4) Folder Structure
+### 4) Folder Structure
 >src
  src/App.vue
  src/main.js
@@ -35,7 +35,7 @@ npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader cs
 >>components
   components/Home.vue
 
-5) Agregar 'build' y 'dev' a package.json 
+### 5) Agregar 'build' y 'dev' a package.json 
 ```
 "scripts": {                                            
   "build": "webpack --mode=development",                
@@ -146,7 +146,7 @@ module.exports = {
 }
 ```
 
-6.5) # src/assets/index.html
+#### 6.5) # src/assets/index.html
 
 ```
 <!DOCTYPE html>
