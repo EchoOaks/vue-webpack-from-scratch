@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Code-Vue-informational?style=flat&logo=vue.js&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Webpack-informational?style=flat&logo=webpack&logoColor=white&color=8dd6f9)
 
-# Paso a paso como inicializar un vue sin CLI con Webpack
+# Step by step how to setup a Vue project without VUE-CLI but Webpack
 
 ## 1) New project folder 
 ```
@@ -47,7 +47,7 @@ new-vue-webpack-app
 ```
 
 
-### 5) Agregar 'build' y 'dev' a package.json 
+### 5) Add 'build' y 'dev' to package.json 
 ```
 "scripts": {                                            
   "build": "webpack --mode=development",                
