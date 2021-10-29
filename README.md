@@ -3,7 +3,8 @@
 
 ## TL;DR
 > git clone https://github.com/jmscarnatto/vue-webpack-from-scratch.git .
-
+> npm install
+> npm run dev
 -------------------------
 
 # Step by step how to setup a Vue project without VUE-CLI but Webpack
