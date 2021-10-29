@@ -3,7 +3,9 @@
 
 ## TL;DR
 > git clone https://github.com/jmscarnatto/vue-webpack-from-scratch.git .
+
 > npm install
+
 > npm run dev
 -------------------------
 
