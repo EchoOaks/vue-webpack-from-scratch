@@ -21,7 +21,7 @@ cd new-vue-webpack-app
 
 ### 3) Dependencies 
 ```
-npm i vue 
+npm i --save vue@next vue-loader@next  
 npm install -D vue-loader vue-template-compiler
 npm install -D babel-loader
 npm install -D vue-style-loader css-loader
@@ -30,7 +30,8 @@ npm install --save-dev webpack webpack-cli
 ```
 or just..
 ```
-npm install -D vue-loader vue-template-compiler babel-loader vue-style-loader css-loader webpack webpack-cli html-webpack-plugin 
+npm i --save vue@next vue-loader@next  
+npm install -D @vue/compiler-sfc babel-loader vue-style-loader css-loader webpack webpack-cli html-webpack-plugin 
 ```
 
 ### 4) Folder Structure
